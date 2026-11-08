@@ -1,0 +1,14 @@
+grupo,estadio,n,achados_sim,pct_achados_sim
+ambos,todos,13137.0,9039,68.80566339346883
+ambos,I,926.0,513,55.399568034557234
+ambos,II,2320.0,1467,63.23275862068966
+ambos,III,5950.0,4180,70.25210084033613
+ambos,IV,3941.0,2879,73.05252473991372
+so_rhc,todos,18144.0,5612,30.930335097001766
+so_rhc,I,4123.0,889,21.561969439728355
+so_rhc,II,5964.0,1521,25.503018108651908
+so_rhc,III,5925.0,2146,36.21940928270042
+so_rhc,IV,2132.0,1056,49.530956848030016
+RESUMO,taxa de não-encontrados entre os 'ambos' (linha de base),,,31.19433660653117
+RESUMO,só-RHC não encontrados além da linha de base (prováveis falsos),9988.0,,55.04681799211062
+RESUMO,Lincoln-Petersen SIM × RHC (contraste; inflado por vínculos falsos),97043.0,,46.346357920287396

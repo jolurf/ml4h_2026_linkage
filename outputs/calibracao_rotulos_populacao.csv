@@ -1,0 +1,10 @@
+passo,n
+ligados RHC × coorte de sobrevida,223463
+estádio invasivo I–IV,209592
+tempo ≥ 0 nas três fontes (exclui óbito RHC antes do diagnóstico SUS),209494
+covariáveis completas,209387
+treino (70%),146571
+teste (30%),62816
+"óbitos (SIM), população analisada",40755
+"óbitos (RHC), população analisada",31281
+"óbitos (Uniao), população analisada",58899

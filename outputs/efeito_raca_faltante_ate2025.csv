@@ -1,0 +1,6 @@
+estimativa,rd_pontos,ic_lo,ic_hi,recall_falta,recall_informada,n,n_estratos,nota
+bruto,-11.953660499146812,,,85.91213852841074,97.86579902755756,2783627,,recall(raça faltante) − recall(raça informada)
+ajustado por ano e UF (registros bloqueáveis),-5.959595646095027,-7.204574592395992,-4.933715446186232,,,2783627,,"logística em células, g-computação, SE cluster por UF"
+dentro do estabelecimento (MH por CNES),-9.840270610624243,-9.968539322813609,-9.71200189843488,,,2399240,6185.0,registros bloqueáveis; estratos com os dois grupos; Greenland–Robins
+"dentro do estabelecimento e ano (MH por CNES×ano, bootstrap por CNES)",-8.571457062508662,-9.973674971848407,-7.338353353739044,,,1344064,15374.0,registros bloqueáveis; estratos CNES×ano com os dois grupos; IC por bootstrap de CNES
+só registros com sexo e região informados,-11.70362153363419,,,86.18786273025486,97.89148426388905,2782523,,remove o déficit mecânico de faltar campo do blocking

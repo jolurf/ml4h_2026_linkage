@@ -1,0 +1,2 @@
+janela_dias,sondas,sondas_com_cns_na_referencia,vinculos_entregues,cobertura,precisao,fdr,recall,precisao_bloco_cnes,fdr_bloco_cnes,precisao_bloco_mun,fdr_bloco_mun,n_bloco_cnes,n_bloco_mun,nota,youden_CNES+sexo_janela,youden_CNES+sexo_fdr,youden_Municipio+sexo_janela,youden_Municipio+sexo_fdr
+75,53346,53346,49412,0.9262550144340719,0.9355217356107828,0.06447826438921722,0.8665316987215537,0.9377802122005153,0.06221978779948467,0.0,1.0,49293,119,sonda é um dos registros da referência: limite superior de precisão e recall,75,0.36328213312055324,75,0.16885851496121163

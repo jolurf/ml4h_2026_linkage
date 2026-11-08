@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# LaTeX build files (paper/figures/*.pdf are tracked)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+paper/ml4h_final.pdf
+
+# written by analysis/coletar_numeros.py (all collected tags; numbers.json is the paper's subset)
+numbers/numbers_all.json

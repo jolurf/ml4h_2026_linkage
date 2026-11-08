@@ -1,0 +1,6 @@
+cenario,n,obitos,os_5a_pct,os_5a_ic_lo,os_5a_ic_hi,hr_estadio_iv_vs_i,hr_ic_lo,hr_ic_hi,n_cox
+0_referencia,2684,474,80.5,78.8,82.0,2.61,1.92,3.55,2073.0
+1_claims_ingenuo,2684,252,89.1,87.8,90.3,3.52,2.33,5.32,2073.0
+1b_sem_link_SIM,2684,416,82.9,81.3,84.3,2.82,2.02,3.93,2073.0
+2_ambiguidade_removida,2684,454,81.3,79.7,82.8,2.56,1.87,3.5,2073.0
+3_grao_registro,3236,588,80.6,,,,,,

@@ -1,0 +1,10 @@
+varia_nasc,varia_sexo,varia_mun,n_cns,categoria,pct_dos_multi
+False,False,True,27839339.0,só município,59.62553929571614
+True,False,False,8835440.0,só nascimento,18.92350514913239
+True,False,True,4039298.0,nascimento e município,8.651258624571064
+False,True,False,3010025.0,só sexo,6.44678969994898
+False,True,True,1266329.0,sexo e município,2.7121890196748177
+True,True,False,957549.0,nascimento e sexo,2.05085241165653
+True,True,True,742313.0,os três,1.5898657993000815
+,,,27839339.0,RESUMO: só município varia (mudança de endereço plausível),59.62553929571614
+,,,18850954.0,RESUMO: nascimento ou sexo varia (contaminação do identificador),40.37446070428386

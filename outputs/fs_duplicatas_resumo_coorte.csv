@@ -1,0 +1,6 @@
+criterio,n_pares,pct
+"CNS distintos, mesmo nascimento+sexo+município",534,100.0
+mesmo registro de tumor no RHC (duplicata definitiva),0,0.0
+mesmo CNES em algum momento,390,73.03370786516854
+mesmo CNES no mesmo ano,218,40.823970037453186
+mesmo CNES na mesma competência (mês),106,19.850187265917604

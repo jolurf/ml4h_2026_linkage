@@ -1,0 +1,6 @@
+conjunto,n
+óbitos em 5 anos (referência),474
+S_SIM: C2 sem confirmação do RHC,58
+"S_SIH: C1 só de AIH, sem confirmação do RHC",37
+dependentes de linkage demográfico (S_SIM ∪ S_SIH),95
+óbitos C2 em 5 anos (base dos falsos vínculos),111

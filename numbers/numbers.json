@@ -1,0 +1,1878 @@
+{
+ "D-RATIO-NOSELF": {
+  "valor": "30.4",
+  "bruto": 30.389836331693,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_u_corrigido_coorte.csv",
+  "celula": "nasc+sexo+mun_res.razao_sem_autopar"
+ },
+ "D-SELFSHARE": {
+  "valor": "86",
+  "bruto": 86.07895581689226,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_u_corrigido_coorte.csv",
+  "celula": "nasc+sexo+mun_res: 1 − u_sem/u_com"
+ },
+ "D-POOL": {
+  "valor": "6,605",
+  "bruto": 6605.0,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_u_corrigido_coorte.csv",
+  "celula": "nasc+sexo+mun_res.N_pool"
+ },
+ "D-PAIRS": {
+  "valor": "534",
+  "bruto": 534.0,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_duplicatas_resumo_coorte.csv",
+  "celula": "linha 1 n_pares"
+ },
+ "D-DUP-CNES-PCT": {
+  "valor": "73.0",
+  "bruto": 73.03370786516854,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_duplicatas_resumo_coorte.csv",
+  "celula": "mesmo CNES em algum momento.pct"
+ },
+ "D-RATIO": {
+  "valor": "24.9",
+  "bruto": 24.934602984345,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_u_sem_duplicatas_coorte.csv",
+  "celula": "mesmo_cnes_mes.razao"
+ },
+ "D-RATIO-ALLCNES": {
+  "valor": "7.7",
+  "bruto": 7.709517321438933,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_u_sem_duplicatas_coorte.csv",
+  "celula": "mesmo_cnes.razao"
+ },
+ "D-RATIO-NAT": {
+  "valor": "1.02",
+  "bruto": 1.019037698370021,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_u_corrigido_nacional.csv",
+  "celula": "nasc+sexo+mun_res.razao_sem_autopar"
+ },
+ "D-M": {
+  "valor": "0.895",
+  "bruto": 0.8954789261386839,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_m_conjunto_nacional.csv",
+  "celula": "nasc+sexo+mun_res.m_medido"
+ },
+ "D-M-PROD": {
+  "valor": "0.889",
+  "bruto": 0.8892191966111105,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_m_conjunto_nacional.csv",
+  "celula": "nasc+sexo+mun_res.m_produto"
+ },
+ "D-BITS-NAT": {
+  "valor": "22.69",
+  "bruto": 22.693696334293605,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_m_conjunto_nacional.csv",
+  "celula": "nasc+sexo+mun_res.peso_bits_corrigido"
+ },
+ "S0-DEATHS": {
+  "valor": "474",
+  "bruto": 474.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "0_referencia.obitos"
+ },
+ "S0-OS": {
+  "valor": "80.5",
+  "bruto": 80.5,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "0_referencia.os_5a_pct"
+ },
+ "S0-HR": {
+  "valor": "2.61",
+  "bruto": 2.61,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "0_referencia.hr"
+ },
+ "S1-DEATHS": {
+  "valor": "252",
+  "bruto": 252.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "1_claims_ingenuo.obitos"
+ },
+ "S1-OS": {
+  "valor": "89.1",
+  "bruto": 89.1,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "1_claims_ingenuo.os_5a_pct"
+ },
+ "S1-HR": {
+  "valor": "3.52",
+  "bruto": 3.52,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "1_claims_ingenuo.hr"
+ },
+ "S1B-DEATHS": {
+  "valor": "416",
+  "bruto": 416.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "1b_sem_link_SIM.obitos"
+ },
+ "S1B-OS": {
+  "valor": "82.9",
+  "bruto": 82.9,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "1b_sem_link_SIM.os_5a_pct"
+ },
+ "S1B-HR": {
+  "valor": "2.82",
+  "bruto": 2.82,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "1b_sem_link_SIM.hr"
+ },
+ "S2-DEATHS": {
+  "valor": "454",
+  "bruto": 454.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "2_ambiguidade_removida.obitos"
+ },
+ "S2-OS": {
+  "valor": "81.3",
+  "bruto": 81.3,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "2_ambiguidade_removida.os_5a_pct"
+ },
+ "S2-HR": {
+  "valor": "2.56",
+  "bruto": 2.56,
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "2_ambiguidade_removida.hr"
+ },
+ "A-RHC": {
+  "valor": "67.4% [62.2, 72.1]",
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_rhc_x_sus.csv",
+  "celula": "5 anos.pct (Wilson)"
+ },
+ "SIH-CENS-N": {
+  "valor": "37",
+  "bruto": 37.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_sensibilidade_sih.csv",
+  "celula": "S2.obitos_censurados"
+ },
+ "SIH-CENS-OS": {
+  "valor": "81.9",
+  "bruto": 81.94783314885005,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_sensibilidade_sih.csv",
+  "celula": "S2.os_5a_pct"
+ },
+ "SIH-CENS-HR": {
+  "valor": "2.54",
+  "bruto": 2.535250814307026,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_sensibilidade_sih.csv",
+  "celula": "S2.hr_estadio_iv"
+ },
+ "B-DEP": {
+  "valor": "95",
+  "bruto": 95.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_conjuntos.csv",
+  "celula": "linha 4"
+ },
+ "B-DEP-SIM": {
+  "valor": "58",
+  "bruto": 58.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_conjuntos.csv",
+  "celula": "linha 2"
+ },
+ "B-DEP-SIH": {
+  "valor": "37",
+  "bruto": 37.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_conjuntos.csv",
+  "celula": "linha 3"
+ },
+ "B-OS": {
+  "valor": "80.6",
+  "bruto": 80.6116968360945,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_taxas_medidas.csv",
+  "celula": "FNR por completude.os5_med"
+ },
+ "B-HR": {
+  "valor": "2.61",
+  "bruto": 2.6132615398324197,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_taxas_medidas.csv",
+  "celula": "hr_med"
+ },
+ "B-FP-OS": {
+  "valor": "79.7",
+  "bruto": 79.65740933679211,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_taxas_medidas.csv",
+  "celula": "+falsos 21%.os5_med"
+ },
+ "B-FP-HR": {
+  "valor": "2.50",
+  "bruto": 2.502977141791388,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_taxas_medidas.csv",
+  "celula": "+falsos 21%.hr_med"
+ },
+ "B-1PT": {
+  "valor": "26",
+  "bruto": 26.436226220176668,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_limiares.csv",
+  "celula": "1.0.perda_necessaria"
+ },
+ "B-MAX": {
+  "valor": "3.9",
+  "bruto": 3.870056984549564,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_limiares.csv",
+  "celula": "deslocamento_maximo"
+ },
+ "B-GAP-REF": {
+  "valor": "5.0",
+  "bruto": 5.031693647587431,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_gap_racial.csv",
+  "celula": "fnr_branca=0.gap_med"
+ },
+ "B-GAP": {
+  "valor": "5.0 [4.7, 5.2]",
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_gap_racial.csv",
+  "celula": "fnr_branca=0.025 med [p2.5, p97.5]"
+ },
+ "F-CC": {
+  "valor": "0.741 [0.610, 0.900]",
+  "script": "projetos/Nefroblastoma_sensibilidade/tabela2_raca_faltante.py",
+  "arquivo": "outputs/tabela2_revisada.csv",
+  "celula": "Complete case.hr (ic), 3 casas"
+ },
+ "F-CC-GAP": {
+  "valor": "5.0",
+  "bruto": 5.031693647587421,
+  "script": "projetos/Nefroblastoma_sensibilidade/tabela2_raca_faltante.py",
+  "arquivo": "outputs/tabela2_revisada.csv",
+  "celula": "Complete case.gap_pp"
+ },
+ "F-IPW": {
+  "valor": "0.743 [0.610, 0.904]",
+  "script": "projetos/Nefroblastoma_sensibilidade/tabela2_raca_faltante.py",
+  "arquivo": "outputs/tabela2_revisada.csv",
+  "celula": "IPW, P(raça observada).hr (ic), 3 casas"
+ },
+ "F-IPW-GAP": {
+  "valor": "5.2",
+  "bruto": 5.161718050636177,
+  "script": "projetos/Nefroblastoma_sensibilidade/tabela2_raca_faltante.py",
+  "arquivo": "outputs/tabela2_revisada.csv",
+  "celula": "IPW, P(raça observada).gap_pp"
+ },
+ "F-MI": {
+  "valor": "0.734 [0.604, 0.891]",
+  "script": "projetos/Nefroblastoma_sensibilidade/tabela2_raca_faltante.py",
+  "arquivo": "outputs/tabela2_revisada.csv",
+  "celula": "Imputação múltipla.hr (ic), 3 casas"
+ },
+ "F-MI-GAP": {
+  "valor": "5.3",
+  "bruto": 5.313439820207412,
+  "script": "projetos/Nefroblastoma_sensibilidade/tabela2_raca_faltante.py",
+  "arquivo": "outputs/tabela2_revisada.csv",
+  "celula": "Imputação múltipla.gap_pp"
+ },
+ "F-IMP": {
+  "valor": "20",
+  "bruto": 20.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/tabela2_raca_faltante.py",
+  "arquivo": "outputs/tabela2_revisada.csv",
+  "celula": "MI.n_imputacoes"
+ },
+ "F-W-MIN": {
+  "valor": "0.96",
+  "bruto": 0.955459736780506,
+  "script": "projetos/Nefroblastoma_sensibilidade/tabela2_raca_faltante.py",
+  "arquivo": "outputs/tabela2_pesos_ipw.csv",
+  "celula": "min"
+ },
+ "F-W-MAX": {
+  "valor": "1.52",
+  "bruto": 1.5157751353500688,
+  "script": "projetos/Nefroblastoma_sensibilidade/tabela2_raca_faltante.py",
+  "arquivo": "outputs/tabela2_pesos_ipw.csv",
+  "celula": "max"
+ },
+ "F-H-PLUGIN": {
+  "valor": "0.154",
+  "bruto": 0.1536486259133613,
+  "script": "scripts/entropia_miller_madow_decomposicao.py",
+  "arquivo": "outputs/entropia_miller_madow_ate2025.csv",
+  "celula": "total.plugin"
+ },
+ "F-H-MM": {
+  "valor": "0.176",
+  "bruto": 0.1756637651191718,
+  "script": "scripts/entropia_miller_madow_decomposicao.py",
+  "arquivo": "outputs/entropia_miller_madow_ate2025.csv",
+  "celula": "total.mm"
+ },
+ "F-MUN": {
+  "valor": "59.6",
+  "bruto": 59.62553929571614,
+  "script": "scripts/entropia_miller_madow_decomposicao.py",
+  "arquivo": "outputs/decomposicao_identidades_ate2025.csv",
+  "celula": "RESUMO só município.pct"
+ },
+ "F-DOB": {
+  "valor": "40.4",
+  "bruto": 40.37446070428386,
+  "script": "scripts/entropia_miller_madow_decomposicao.py",
+  "arquivo": "outputs/decomposicao_identidades_ate2025.csv",
+  "celula": "RESUMO nasc ou sexo.pct"
+ },
+ "F-ORDER": {
+  "valor": "monotone",
+  "script": "scripts/score_pares_rescore_intra_uf.py",
+  "arquivo": "outputs/distribuicao_score_intraUF_ate2025.csv",
+  "celula": "ordem_nova_monotona"
+ },
+ "F-UMUN-UF": {
+  "valor": "0.175",
+  "bruto": 0.17533163650249523,
+  "script": "scripts/score_pares_rescore_intra_uf.py",
+  "arquivo": "outputs/u_m_empirico_por_uf_ate2025.csv",
+  "celula": "u_mun ponderado"
+ },
+ "E-YEAR-PRETA": {
+  "valor": "13.5",
+  "bruto": 13.518174170952191,
+  "script": "scripts/tabela1_cns_padronizada_ano.py",
+  "arquivo": "outputs/tabela1_raca_padronizada_ano_ate2025.csv",
+  "celula": "Preta.padronizado"
+ },
+ "E-YEAR-PRETA-RAW": {
+  "valor": "12.7",
+  "bruto": 12.659466067997952,
+  "script": "scripts/tabela1_cns_padronizada_ano.py",
+  "arquivo": "outputs/tabela1_raca_padronizada_ano_ate2025.csv",
+  "celula": "Preta.bruto"
+ },
+ "E-YEAR-BRANCA": {
+  "valor": "9.6",
+  "bruto": 9.558402283596692,
+  "script": "scripts/tabela1_cns_padronizada_ano.py",
+  "arquivo": "outputs/tabela1_raca_padronizada_ano_ate2025.csv",
+  "celula": "Branca.padronizado"
+ },
+ "E-YEAR-BRANCA-RAW": {
+  "valor": "9.3",
+  "bruto": 9.33824978605941,
+  "script": "scripts/tabela1_cns_padronizada_ano.py",
+  "arquivo": "outputs/tabela1_raca_padronizada_ano_ate2025.csv",
+  "celula": "Branca.bruto"
+ },
+ "E-YEAR-PARDA": {
+  "valor": "11.5",
+  "bruto": 11.53188952134842,
+  "script": "scripts/tabela1_cns_padronizada_ano.py",
+  "arquivo": "outputs/tabela1_raca_padronizada_ano_ate2025.csv",
+  "celula": "Parda.padronizado"
+ },
+ "E-YEAR-PARDA-RAW": {
+  "valor": "11.0",
+  "bruto": 11.025490996376714,
+  "script": "scripts/tabela1_cns_padronizada_ano.py",
+  "arquivo": "outputs/tabela1_raca_padronizada_ano_ate2025.csv",
+  "celula": "Parda.bruto"
+ },
+ "E-YEAR-SI": {
+  "valor": "30.2",
+  "bruto": 30.20852894566446,
+  "script": "scripts/tabela1_cns_padronizada_ano.py",
+  "arquivo": "outputs/tabela1_raca_padronizada_ano_ate2025.csv",
+  "celula": "Sem informação.padronizado"
+ },
+ "E-YEAR-SI-RAW": {
+  "valor": "27.7",
+  "bruto": 27.68049740986808,
+  "script": "scripts/tabela1_cns_padronizada_ano.py",
+  "arquivo": "outputs/tabela1_raca_padronizada_ano_ate2025.csv",
+  "celula": "Sem informação.bruto"
+ },
+ "E-RAW": {
+  "valor": "12.0",
+  "bruto": 11.953660499146812,
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/efeito_raca_faltante_ate2025.csv",
+  "celula": "bruto (déficit)"
+ },
+ "E-ADJ": {
+  "valor": "6.0 [4.9, 7.2]",
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/efeito_raca_faltante_ate2025.csv",
+  "celula": "ajustado (sinal invertido: déficit)"
+ },
+ "E-FAC": {
+  "valor": "8.6 [7.3, 10.0]",
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/efeito_raca_faltante_ate2025.csv",
+  "celula": "MH CNES×ano (sinal invertido: déficit)"
+ },
+ "E-BLQ": {
+  "valor": "11.7",
+  "bruto": 11.70362153363419,
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/efeito_raca_faltante_ate2025.csv",
+  "celula": "bloqueáveis (déficit)"
+ },
+ "F-CI1": {
+  "valor": "0.67 [0.49, 0.85]",
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/paridade_fnr_cluster_ate2025.csv",
+  "celula": "Preto/Pardo vs Branco.mun_res"
+ },
+ "F-CI2": {
+  "valor": "2.30 [1.94, 2.66]",
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/paridade_fnr_cluster_ate2025.csv",
+  "celula": "Norte/Nordeste vs Sul/Sudeste.mun_res"
+ },
+ "F-CI1-UF": {
+  "valor": "0.67 [0.22, 1.20]",
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/paridade_fnr_cluster_ate2025.csv",
+  "celula": "Preto/Pardo vs Branco.uf"
+ },
+ "F-CI2-UF": {
+  "valor": "2.30 [1.51, 3.42]",
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/paridade_fnr_cluster_ate2025.csv",
+  "celula": "Norte/Nordeste vs Sul/Sudeste.uf"
+ },
+ "F-CHANCE": {
+  "valor": "38.5",
+  "bruto": 38.49988693059079,
+  "script": "scripts/colisao_trinca_baseline_acaso.py",
+  "arquivo": "outputs/colisao_trinca_baseline_ate2025.csv",
+  "celula": "pct_esperado"
+ },
+ "F-CHANCE-RATIO": {
+  "valor": "1.32",
+  "bruto": 1.323533001416318,
+  "script": "scripts/colisao_trinca_baseline_acaso.py",
+  "arquivo": "outputs/colisao_trinca_baseline_ate2025.csv",
+  "celula": "razao"
+ },
+ "A-R1": {
+  "valor": "93.7",
+  "bruto": 93.73947664154392,
+  "script": "scripts/cascade_bi_recall_interno.py",
+  "arquivo": "outputs/recall_chaves_ate2025.csv",
+  "celula": "R1 (nasc+CNES).taxa_recall"
+ },
+ "A-R3": {
+  "valor": "99.0",
+  "bruto": 99.0054927933101,
+  "script": "scripts/cascade_bi_recall_interno.py",
+  "arquivo": "outputs/recall_chaves_ate2025.csv",
+  "celula": "R3 (nasc+sexo+mun_res).taxa_recall"
+ },
+ "A-R4": {
+  "valor": "98.3",
+  "bruto": 98.28977242225376,
+  "script": "scripts/cascade_bi_recall_interno.py",
+  "arquivo": "outputs/recall_chaves_ate2025.csv",
+  "celula": "R4 (nasc+sexo+mun_ubs).taxa_recall"
+ },
+ "A-REC": {
+  "valor": "94.6",
+  "bruto": 94.59329747621018,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "todas/coorte/cascata.recall"
+ },
+ "A-PREC": {
+  "valor": "96.0",
+  "bruto": 95.97031465126432,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "todas/coorte/cascata.precisao"
+ },
+ "A-N": {
+  "valor": "60,425",
+  "bruto": 60425.0,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "todas/coorte/cascata.consultas"
+ },
+ "A-AMB": {
+  "valor": "6",
+  "bruto": 5.5576077101313,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "todas/coorte ambiguas/vinculadas"
+ },
+ "A-REC-UF": {
+  "valor": "36.7",
+  "bruto": 36.74451322267334,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "UF inteira.recall"
+ },
+ "A-PREC-UF": {
+  "valor": "36.8",
+  "bruto": 36.82603528628606,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "todas/UF/cascata.precisao"
+ },
+ "A-AMB-UF": {
+  "valor": "76",
+  "bruto": 76.15921914174714,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "todas/UF ambiguas/vinculadas"
+ },
+ "C-HR-IV-SIM": {
+  "valor": "8.07",
+  "bruto": 8.065920451030534,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_hr.csv",
+  "celula": "staging_IV.HR_SIM"
+ },
+ "C-HR-IV-RHC": {
+  "valor": "2.52",
+  "bruto": 2.5221737607856825,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_hr.csv",
+  "celula": "staging_IV.HR_RHC"
+ },
+ "C-HR-IV-Uniao": {
+  "valor": "4.31",
+  "bruto": 4.3107905289528,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_hr.csv",
+  "celula": "staging_IV.HR_Uniao"
+ },
+ "C-HR-PARDA-SIM": {
+  "valor": "1.08 [1.05, 1.12]",
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_hr.csv",
+  "celula": "raca_label_Parda.SIM (ic)"
+ },
+ "C-HR-PARDA-RHC": {
+  "valor": "0.66 [0.64, 0.69]",
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_hr.csv",
+  "celula": "raca_label_Parda.RHC (ic)"
+ },
+ "C-HR-PARDA-Uniao": {
+  "valor": "0.89 [0.87, 0.91]",
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_hr.csv",
+  "celula": "raca_label_Parda.Uniao (ic)"
+ },
+ "C-OE-SIM-Uniao": {
+  "valor": "0.68",
+  "bruto": 0.6753474491083012,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "SIM->Uniao.razao"
+ },
+ "C-C-SIM-Uniao": {
+  "valor": "0.651",
+  "bruto": 0.6514365808987349,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "SIM->Uniao.c"
+ },
+ "C-OE-RHC-Uniao": {
+  "valor": "0.55",
+  "bruto": 0.5496631832140998,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "RHC->Uniao.razao"
+ },
+ "C-C-RHC-Uniao": {
+  "valor": "0.625",
+  "bruto": 0.6253037457360893,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "RHC->Uniao.c"
+ },
+ "C-OE-Uniao-Uniao": {
+  "valor": "1.00",
+  "bruto": 1.000688893404566,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "Uniao->Uniao.razao"
+ },
+ "C-C-Uniao-Uniao": {
+  "valor": "0.659",
+  "bruto": 0.6594305530433864,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "Uniao->Uniao.c"
+ },
+ "C-PRED-SIM": {
+  "valor": "17.7",
+  "bruto": 17.6963968144735,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "SIM->Uniao.previsto"
+ },
+ "C-OBS-UNION": {
+  "valor": "26.2",
+  "bruto": 26.203396248611043,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "SIM->Uniao.observado"
+ },
+ "C-N": {
+  "valor": "209,387",
+  "bruto": 209387.0,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_populacao.csv",
+  "celula": "covariáveis completas"
+ },
+ "A-REC-R1": {
+  "valor": "81.1",
+  "bruto": 81.09060819197353,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "todas/coorte/sozinha/R1.recall"
+ },
+ "A-ABS": {
+  "valor": "85.1",
+  "bruto": 85.1225873761085,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "(corretas R3+R4 na cascata) / sem vínculo por R1"
+ },
+ "A-PREC-R1": {
+  "valor": "96.4",
+  "bruto": 96.37883556254916,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "todas/coorte/produção/R1.precisao"
+ },
+ "A-PREC-R3": {
+  "valor": "94.7",
+  "bruto": 94.71211756203324,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "todas/coorte/produção/R3.precisao"
+ },
+ "A-PREC-R4": {
+  "valor": "71.2",
+  "bruto": 71.15384615384616,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "todas/coorte/produção/R4.precisao"
+ },
+ "A-UNLINKED": {
+  "valor": "867",
+  "bruto": 867.0,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "consultas − vinculadas"
+ },
+ "A-REC-UF-MIN": {
+  "valor": "93.4",
+  "bruto": 93.40481920370428,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "min recall por UF"
+ },
+ "A-REC-UF-MAX": {
+  "valor": "96.9",
+  "bruto": 96.92299919159257,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "max recall por UF"
+ },
+ "A-PREC-UF-MIN": {
+  "valor": "94.9",
+  "bruto": 94.87885632948604,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "min precisão por UF"
+ },
+ "A-PREC-UF-MAX": {
+  "valor": "97.7",
+  "bruto": 97.74777070063693,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "max precisão por UF"
+ },
+ "A-PREC-C50ORD": {
+  "valor": "94.5",
+  "bruto": 94.50619564122368,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "ordem C50 precisão"
+ },
+ "A-REC-PED": {
+  "valor": "96.2",
+  "bruto": 96.24284447311135,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "pediátrico.recall"
+ },
+ "A-PREC-PED": {
+  "valor": "97.1",
+  "bruto": 97.05667127408732,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "pediátrico.precisao"
+ },
+ "A-AMB-PED": {
+  "valor": "5",
+  "bruto": 4.8865761444019835,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "pediátrico ambíguas/vinculadas"
+ },
+ "F-CI1-CNES": {
+  "valor": "[0.41, 0.93]",
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/paridade_fnr_cluster_ate2025.csv",
+  "celula": "Preto/Pardo vs Branco.cnes"
+ },
+ "F-CI2-CNES": {
+  "valor": "[1.66, 3.07]",
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/paridade_fnr_cluster_ate2025.csv",
+  "celula": "Norte/Nordeste vs Sul/Sudeste.cnes"
+ },
+ "F-WIDEN-MIN": {
+  "valor": "5",
+  "bruto": 5.173438700316458,
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/paridade_fnr_cluster_ate2025.csv",
+  "celula": "min razão largura"
+ },
+ "F-WIDEN-MAX": {
+  "valor": "19",
+  "bruto": 18.58265715544986,
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/paridade_fnr_cluster_ate2025.csv",
+  "celula": "max razão largura"
+ },
+ "E-FAC-N": {
+  "valor": "15,374",
+  "bruto": 15374.0,
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/efeito_raca_faltante_ate2025.csv",
+  "celula": "MH CNES×ano.n_estratos"
+ },
+ "E-REC-FALTA": {
+  "valor": "85.9",
+  "bruto": 85.91213852841074,
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/efeito_raca_faltante_ate2025.csv",
+  "celula": "bruto.recall_falta"
+ },
+ "E-REC-INF": {
+  "valor": "97.9",
+  "bruto": 97.86579902755756,
+  "script": "scripts/completude_modelo_ajustado.py",
+  "arquivo": "outputs/efeito_raca_faltante_ate2025.csv",
+  "celula": "bruto.recall_informada"
+ },
+ "D-RATIO-ANO": {
+  "valor": "18.5",
+  "bruto": 18.45858263598784,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_u_sem_duplicatas_coorte.csv",
+  "celula": "mesmo_cnes_ano.razao"
+ },
+ "D-DUP-RHC": {
+  "valor": "0",
+  "bruto": 0.0,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_duplicatas_resumo_coorte.csv",
+  "celula": "mesmo RHC_ID.n_pares"
+ },
+ "F-TRINCAS-OBS": {
+  "valor": "90.4",
+  "bruto": 90.435434,
+  "script": "scripts/colisao_trinca_baseline_acaso.py",
+  "arquivo": "outputs/colisao_trinca_baseline_ate2025.csv",
+  "celula": "trincas_observadas (mi)"
+ },
+ "F-TRINCAS-ESP": {
+  "valor": "105.7",
+  "bruto": 105.70253459611513,
+  "script": "scripts/colisao_trinca_baseline_acaso.py",
+  "arquivo": "outputs/colisao_trinca_baseline_ate2025.csv",
+  "celula": "trincas_esperadas (mi)"
+ },
+ "C-DEC-SIM-SIM": {
+  "valor": "0.8",
+  "bruto": 0.8191844125134049,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "SIM->SIM.cal_decil_mae_pp"
+ },
+ "C-DEC-SIM-Uniao": {
+  "valor": "8.7",
+  "bruto": 8.66065579870715,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "SIM->Uniao.cal_decil_mae_pp"
+ },
+ "C-DEC-RHC-RHC": {
+  "valor": "0.6",
+  "bruto": 0.5679912320957202,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "RHC->RHC.cal_decil_mae_pp"
+ },
+ "C-DEC-RHC-Uniao": {
+  "valor": "11.6",
+  "bruto": 11.57589486642023,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "RHC->Uniao.cal_decil_mae_pp"
+ },
+ "C-DEC-Uniao-Uniao": {
+  "valor": "1.1",
+  "bruto": 1.1298301739009284,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_global.csv",
+  "celula": "Uniao->Uniao.cal_decil_mae_pp"
+ },
+ "RHC-COB": {
+  "valor": "92.6",
+  "bruto": 92.6255014434072,
+  "script": "projetos/Nefroblastoma_sensibilidade/validacao_rhc_surrogate.py",
+  "arquivo": "outputs/validacao_rhc_resumo.csv",
+  "celula": "cobertura"
+ },
+ "RHC-PREC": {
+  "valor": "93.6",
+  "bruto": 93.55217356107828,
+  "script": "projetos/Nefroblastoma_sensibilidade/validacao_rhc_surrogate.py",
+  "arquivo": "outputs/validacao_rhc_resumo.csv",
+  "celula": "precisao"
+ },
+ "RHC-REC": {
+  "valor": "86.7",
+  "bruto": 86.65316987215536,
+  "script": "projetos/Nefroblastoma_sensibilidade/validacao_rhc_surrogate.py",
+  "arquivo": "outputs/validacao_rhc_resumo.csv",
+  "celula": "recall"
+ },
+ "RHC-SONDAS": {
+  "valor": "53,346",
+  "bruto": 53346.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/validacao_rhc_surrogate.py",
+  "arquivo": "outputs/validacao_rhc_resumo.csv",
+  "celula": "sondas"
+ },
+ "RHC-STRICT-N": {
+  "valor": "785",
+  "bruto": 785.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/sensibilidade_match_rhc.py",
+  "arquivo": "outputs/tabela_sensibilidade_match_rhc.csv",
+  "celula": "estrito.n"
+ },
+ "RHC-STRICT-OS": {
+  "valor": "84.0",
+  "bruto": 83.96071146545016,
+  "script": "projetos/Nefroblastoma_sensibilidade/sensibilidade_match_rhc.py",
+  "arquivo": "outputs/tabela_sensibilidade_match_rhc.csv",
+  "celula": "estrito.os"
+ },
+ "RHC-STRICT-HR": {
+  "valor": "3.12",
+  "bruto": 3.120168227020396,
+  "script": "projetos/Nefroblastoma_sensibilidade/sensibilidade_match_rhc.py",
+  "arquivo": "outputs/tabela_sensibilidade_match_rhc.csv",
+  "celula": "estrito.hr"
+ },
+ "RHC-CNES-OS": {
+  "valor": "80.7",
+  "bruto": 80.6865473758324,
+  "script": "projetos/Nefroblastoma_sensibilidade/sensibilidade_match_rhc.py",
+  "arquivo": "outputs/tabela_sensibilidade_match_rhc.csv",
+  "celula": "CNES.os"
+ },
+ "RHC-CNES-HR": {
+  "valor": "2.56",
+  "bruto": 2.564639782773784,
+  "script": "projetos/Nefroblastoma_sensibilidade/sensibilidade_match_rhc.py",
+  "arquivo": "outputs/tabela_sensibilidade_match_rhc.csv",
+  "celula": "CNES.hr"
+ },
+ "RHC-OS-MIN": {
+  "valor": "80.7",
+  "bruto": 80.6865473758324,
+  "script": "projetos/Nefroblastoma_sensibilidade/sensibilidade_match_rhc.py",
+  "arquivo": "outputs/tabela_sensibilidade_match_rhc.csv",
+  "celula": "min OS estratos estritos"
+ },
+ "RHC-OS-MAX": {
+  "valor": "84.0",
+  "bruto": 83.96071146545016,
+  "script": "projetos/Nefroblastoma_sensibilidade/sensibilidade_match_rhc.py",
+  "arquivo": "outputs/tabela_sensibilidade_match_rhc.csv",
+  "celula": "max OS estratos estritos"
+ },
+ "OB-SIA": {
+  "valor": "77",
+  "bruto": 77.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_obitos_c1_por_fonte.csv",
+  "celula": "5 anos so_SIA.n"
+ },
+ "OB-SIA-PCT": {
+  "valor": "67.5",
+  "bruto": 67.53246753246754,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_obitos_c1_por_fonte.csv",
+  "celula": "5 anos so_SIA.pct"
+ },
+ "OB-SIH": {
+  "valor": "119",
+  "bruto": 119.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_obitos_c1_por_fonte.csv",
+  "celula": "5 anos so_SIH.n"
+ },
+ "OB-SIH-PCT": {
+  "valor": "68.9",
+  "bruto": 68.90756302521008,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_obitos_c1_por_fonte.csv",
+  "celula": "5 anos so_SIH.pct"
+ },
+ "OB-AMBOS": {
+  "valor": "56",
+  "bruto": 56.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_obitos_c1_por_fonte.csv",
+  "celula": "5 anos ambos.n"
+ },
+ "OB-AMBOS-PCT": {
+  "valor": "75.0",
+  "bruto": 75.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_obitos_c1_por_fonte.csv",
+  "celula": "5 anos ambos.pct"
+ },
+ "OB-RHCONLY": {
+  "valor": "111",
+  "bruto": 111.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_rhc_x_sus.csv",
+  "celula": "5 anos so_rhc"
+ },
+ "RX-AMBOS": {
+  "valor": "229",
+  "bruto": 229.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_rhc_x_sus.csv",
+  "celula": "5 anos.ambos"
+ },
+ "RX-SORHC": {
+  "valor": "111",
+  "bruto": 111.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_rhc_x_sus.csv",
+  "celula": "5 anos.so_rhc"
+ },
+ "RX-SOPIPE": {
+  "valor": "134",
+  "bruto": 134.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/concordancia_rhc_sus.py",
+  "arquivo": "outputs/tabela_rhc_x_sus.csv",
+  "celula": "5 anos.so_pipeline"
+ },
+ "OB-SIM": {
+  "valor": "111",
+  "bruto": 111.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_conjuntos.csv",
+  "celula": "C2 em 5 anos"
+ },
+ "OB-SIM-PCT": {
+  "valor": "47.7",
+  "bruto": 47.747747747747745,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_conjuntos.csv",
+  "celula": "(C2 − S_SIM)/C2"
+ },
+ "D-COND-NEW": {
+  "valor": "0.17",
+  "bruto": 0.17388472810164482,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_u_corrigido_coorte.csv",
+  "celula": "nasc+sexo+mun_res/u_sem_autopar ÷ data_nascimento"
+ },
+ "D-COND-IND": {
+  "valor": "0.006",
+  "bruto": 0.005721805349779187,
+  "script": "scripts/fs_diagnostico_u_m.py",
+  "arquivo": "outputs/fs_u_corrigido_coorte.csv",
+  "celula": "u_sexo × u_mun (sem auto-par)"
+ },
+ "BLK-1IN": {
+  "valor": "48.2",
+  "bruto": 48.199314806124406,
+  "script": "scripts/completude_fnr_parity.py",
+  "arquivo": "outputs/metricas_por_estrato_ate2025.csv",
+  "celula": "1/precisão (milhões)"
+ },
+ "REC-BRANCA": {
+  "valor": "98.2",
+  "bruto": 98.213696210455,
+  "script": "scripts/completude_fnr_parity.py",
+  "arquivo": "outputs/metricas_por_estrato_ate2025.csv",
+  "celula": "Raça/cor: Branca.recall"
+ },
+ "REC-PRETA": {
+  "valor": "98.4",
+  "bruto": 98.37923434628723,
+  "script": "scripts/completude_fnr_parity.py",
+  "arquivo": "outputs/metricas_por_estrato_ate2025.csv",
+  "celula": "Raça/cor: Preta.recall"
+ },
+ "REC-PARDA": {
+  "valor": "97.4",
+  "bruto": 97.39342687549404,
+  "script": "scripts/completude_fnr_parity.py",
+  "arquivo": "outputs/metricas_por_estrato_ate2025.csv",
+  "celula": "Raça/cor: Parda.recall"
+ },
+ "REC-AMARELA": {
+  "valor": "96.9",
+  "bruto": 96.92746122475721,
+  "script": "scripts/completude_fnr_parity.py",
+  "arquivo": "outputs/metricas_por_estrato_ate2025.csv",
+  "celula": "Raça/cor: Amarela.recall"
+ },
+ "REC-INDIGENA": {
+  "valor": "95.4",
+  "bruto": 95.44592030360532,
+  "script": "scripts/completude_fnr_parity.py",
+  "arquivo": "outputs/metricas_por_estrato_ate2025.csv",
+  "celula": "Raça/cor: Indígena.recall"
+ },
+ "REC-SI": {
+  "valor": "85.9",
+  "bruto": 85.91213852841074,
+  "script": "scripts/completude_fnr_parity.py",
+  "arquivo": "outputs/metricas_por_estrato_ate2025.csv",
+  "celula": "Raça/cor: Sem informação.recall"
+ },
+ "REC-N-NAC": {
+  "valor": "2,783,627",
+  "bruto": 2783627.0,
+  "script": "scripts/completude_fnr_parity.py",
+  "arquivo": "outputs/metricas_por_estrato_ate2025.csv",
+  "celula": "Nacional.n"
+ },
+ "REG-TOTAL": {
+  "valor": "3.9",
+  "bruto": 3.898035191,
+  "script": "scripts/tabela1_cns_nacional.py",
+  "arquivo": "outputs/tabela1_nacional_ate2025.csv",
+  "celula": "Σ total (sexo), bilhões"
+ },
+ "REG-CONF": {
+  "valor": "87.17",
+  "bruto": 87.17178279573926,
+  "script": "scripts/tabela1_cns_nacional.py",
+  "arquivo": "outputs/tabela1_nacional_ate2025.csv",
+  "celula": "Σ com_cns / Σ total"
+ },
+ "MULTI-2A4": {
+  "valor": "14.2",
+  "bruto": 14.179113218238504,
+  "script": "scripts/entropia_miller_madow_decomposicao.py",
+  "arquivo": "outputs/entropia_miller_madow_ate2025.csv",
+  "celula": "2-4.pct_multi"
+ },
+ "MULTI-100": {
+  "valor": "45.9",
+  "bruto": 45.89726819104568,
+  "script": "scripts/entropia_miller_madow_decomposicao.py",
+  "arquivo": "outputs/entropia_miller_madow_ate2025.csv",
+  "celula": "100+.pct_multi"
+ },
+ "A-UNL-R1": {
+  "valor": "9,585",
+  "bruto": 9585.0,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "consultas − vinculadas por R1"
+ },
+ "A-WRONG-R1": {
+  "valor": "1,841",
+  "bruto": 1841.0,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "R1 vinculadas − corretas"
+ },
+ "A-WRONG-R1-PCT": {
+  "valor": "3.6",
+  "bruto": 3.621164437450826,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "R1 erradas / vinculadas"
+ },
+ "A-REC-C50ORD": {
+  "valor": "93.2",
+  "bruto": 93.1501861812164,
+  "script": "scripts/cascata_registro_retido_uf.py",
+  "arquivo": "outputs/cascata_registro_retido_ate2025.csv",
+  "celula": "ordem C50.recall"
+ },
+ "RHC-MUN-N": {
+  "valor": "119",
+  "bruto": 119.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/validacao_rhc_surrogate.py",
+  "arquivo": "outputs/validacao_rhc_resumo.csv",
+  "celula": "n_bloco_mun"
+ },
+ "RHC-MUN-OK": {
+  "valor": "0",
+  "bruto": 0.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/validacao_rhc_surrogate.py",
+  "arquivo": "outputs/validacao_rhc_resumo.csv",
+  "celula": "n_bloco_mun × precisão"
+ },
+ "RHC-HR-MIN": {
+  "valor": "2.56",
+  "bruto": 2.564639782773784,
+  "script": "projetos/Nefroblastoma_sensibilidade/sensibilidade_match_rhc.py",
+  "arquivo": "outputs/tabela_sensibilidade_match_rhc.csv",
+  "celula": "min HR estratos estritos"
+ },
+ "RHC-HR-MAX": {
+  "valor": "5.16",
+  "bruto": 5.155473435026201,
+  "script": "projetos/Nefroblastoma_sensibilidade/sensibilidade_match_rhc.py",
+  "arquivo": "outputs/tabela_sensibilidade_match_rhc.csv",
+  "celula": "max HR estratos estritos"
+ },
+ "RHC-STRICT-OS-CI": {
+  "valor": "[81.0, 86.5]",
+  "script": "projetos/Nefroblastoma_sensibilidade/sensibilidade_match_rhc.py",
+  "arquivo": "outputs/tabela_sensibilidade_match_rhc.csv",
+  "celula": "estrito.os ic"
+ },
+ "RHC-MUNROUTE-N": {
+  "valor": "55",
+  "bruto": 55.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/sensibilidade_match_rhc.py",
+  "arquivo": "outputs/tabela_sensibilidade_match_rhc.csv",
+  "celula": "complemento CNES.n"
+ },
+ "S0-OS-CI": {
+  "valor": "[78.8, 82.0]",
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "0_referencia.os ic"
+ },
+ "S0-HR-CI": {
+  "valor": "[1.92, 3.55]",
+  "script": "projetos/Nefroblastoma_sensibilidade/cenarios_degradacao_linkage.py",
+  "arquivo": "outputs/tabela_cenarios_degradacao.csv",
+  "celula": "0_referencia.hr ic"
+ },
+ "GAP-CI": {
+  "valor": "[1.8, 8.2]",
+  "script": "projetos/Nefroblastoma_sensibilidade/tabela2_raca_faltante.py",
+  "arquivo": "outputs/tabela2_revisada.csv",
+  "celula": "CC.gap ic"
+ },
+ "U-N-SIM": {
+  "valor": "40,755",
+  "bruto": 40755.0,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "só SIM + ambos"
+ },
+ "U-N-RHC": {
+  "valor": "31,281",
+  "bruto": 31281.0,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "só RHC + ambos"
+ },
+ "U-N-UNION": {
+  "valor": "58,899",
+  "bruto": 58899.0,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "soma dos três"
+ },
+ "U-N-SORHC": {
+  "valor": "18,144",
+  "bruto": 18144.0,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "n_total_so_RHC"
+ },
+ "U-MORT-SIM-I": {
+  "valor": "7.4",
+  "bruto": 7.360687238611958,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "I.mortalidade_SIM"
+ },
+ "U-MORT-RHC-I": {
+  "valor": "11.4",
+  "bruto": 11.414038657171922,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "I.mortalidade_RHC"
+ },
+ "U-MORT-Uniao-I": {
+  "valor": "16.7",
+  "bruto": 16.681360913303944,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "I.mortalidade_Uniao"
+ },
+ "U-SOSIM-I": {
+  "valor": "5.3",
+  "bruto": 5.267322256132021,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "I.pct_so_SIM"
+ },
+ "U-SORHC-I": {
+  "valor": "9.3",
+  "bruto": 9.320673674691983,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "I.pct_so_RHC"
+ },
+ "U-MORT-SIM-IV": {
+  "valor": "41.8",
+  "bruto": 41.82241116547686,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "IV.mortalidade_SIM"
+ },
+ "U-MORT-RHC-IV": {
+  "valor": "24.4",
+  "bruto": 24.356300633672895,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "IV.mortalidade_RHC"
+ },
+ "U-MORT-Uniao-IV": {
+  "valor": "50.4",
+  "bruto": 50.37298467955402,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "IV.mortalidade_Uniao"
+ },
+ "U-SOSIM-IV": {
+  "valor": "26.0",
+  "bruto": 26.016684045881128,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "IV.pct_so_SIM"
+ },
+ "U-SORHC-IV": {
+  "valor": "8.6",
+  "bruto": 8.550573514077165,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "IV.pct_so_RHC"
+ },
+ "U-RATIO-SIM": {
+  "valor": "5.7",
+  "bruto": 5.681862278577608,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "razão IV/I mortalidade_SIM"
+ },
+ "U-RATIO-RHC": {
+  "valor": "2.1",
+  "bruto": 2.133889797049952,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "razão IV/I mortalidade_RHC"
+ },
+ "U-RATIO-Uniao": {
+  "valor": "3.0",
+  "bruto": 3.0197167330262533,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "razão IV/I mortalidade_Uniao"
+ },
+ "U-SORHC-MIN": {
+  "valor": "8.2",
+  "bruto": 8.155315751803116,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "min pct_so_RHC"
+ },
+ "U-SORHC-MAX": {
+  "valor": "9.3",
+  "bruto": 9.320673674691983,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_por_fonte_estadio.csv",
+  "celula": "max pct_so_RHC"
+ },
+ "C-INJ0-IV": {
+  "valor": "4.31",
+  "bruto": 4.3107905289528,
+  "script": "scripts/c50_injecao_fnr.py",
+  "arquivo": "outputs/injecao_fnr_c50.csv",
+  "celula": "referência (União, sem perda).hr_estadio_iv_med"
+ },
+ "C-INJ1-LOST": {
+  "valor": "462",
+  "bruto": 462.0,
+  "script": "scripts/c50_injecao_fnr.py",
+  "arquivo": "outputs/injecao_fnr_c50.csv",
+  "celula": "FNR medida por raça.obitos_perdidos"
+ },
+ "C-INJ1-IV": {
+  "valor": "4.29",
+  "bruto": 4.289977680782225,
+  "script": "scripts/c50_injecao_fnr.py",
+  "arquivo": "outputs/injecao_fnr_c50.csv",
+  "celula": "FNR medida por raça.hr_estadio_iv_med"
+ },
+ "C-INJ1-CAL": {
+  "valor": "1.1",
+  "bruto": 1.128007945516473,
+  "script": "scripts/c50_injecao_fnr.py",
+  "arquivo": "outputs/injecao_fnr_c50.csv",
+  "celula": "FNR medida por raça.cal_decil_mae_pp_vs_completo_med"
+ },
+ "C-INJ5-IV": {
+  "valor": "4.21",
+  "bruto": 4.206069881535696,
+  "script": "scripts/c50_injecao_fnr.py",
+  "arquivo": "outputs/injecao_fnr_c50.csv",
+  "celula": "5× a FNR medida (estresse).hr_estadio_iv_med"
+ },
+ "C-INJ5-CAL": {
+  "valor": "1.4",
+  "bruto": 1.4428068330825126,
+  "script": "scripts/c50_injecao_fnr.py",
+  "arquivo": "outputs/injecao_fnr_c50.csv",
+  "celula": "5× a FNR medida (estresse).cal_decil_mae_pp_vs_completo_med"
+ },
+ "CR-N": {
+  "valor": "539",
+  "bruto": 538.6695652173913,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "total.N_chapman"
+ },
+ "CR-N-LO": {
+  "valor": "515",
+  "bruto": 514.5780555576335,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "total.N_ic_lo"
+ },
+ "CR-N-HI": {
+  "valor": "563",
+  "bruto": 562.7610748771491,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "total.N_ic_hi"
+ },
+ "CR-MISSED": {
+  "valor": "65",
+  "bruto": 64.66956521739132,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "total.faltantes"
+ },
+ "CR-MISSED-LO": {
+  "valor": "41",
+  "bruto": 40.57805555763355,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "total.faltantes_ic_lo"
+ },
+ "CR-MISSED-HI": {
+  "valor": "89",
+  "bruto": 88.7610748771491,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "total.faltantes_ic_hi"
+ },
+ "CR-MISSED-STRAT-MIN": {
+  "valor": "58",
+  "bruto": 57.962522713506985,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "min soma dos estratos"
+ },
+ "CR-MISSED-STRAT-MAX": {
+  "valor": "75",
+  "bruto": 74.91809137448084,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "max soma dos estratos"
+ },
+ "CR-CAP-PIPE": {
+  "valor": "67",
+  "bruto": 67.38825124703375,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "total.captura_pipeline"
+ },
+ "CR-CAP-RHC": {
+  "valor": "63",
+  "bruto": 63.118472242400756,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "total.captura_rhc"
+ },
+ "CR-CAP-REF": {
+  "valor": "88",
+  "bruto": 87.99457600852342,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "total.captura_uniao"
+ },
+ "CR-CAP-IGN": {
+  "valor": "69",
+  "bruto": 69.38962826984856,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "estádio Ignorado.captura_uniao"
+ },
+ "CR-MISSED-AJ": {
+  "valor": "29",
+  "bruto": 29.13043478260869,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "ajustado.faltantes"
+ },
+ "CR-FALSOS": {
+  "valor": "61",
+  "bruto": 61.422680412371136,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "ajustado.so_rhc_falsos_estimados"
+ },
+ "CR-BASE-NF": {
+  "valor": "15",
+  "bruto": 15.283842794759819,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_obitos.csv",
+  "celula": "taxa de não encontrados entre os ambos"
+ },
+ "CR-MISS-K": {
+  "valor": "75",
+  "bruto": 75.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_cenarios.csv",
+  "celula": "faltantes por estádio (principal).k_total"
+ },
+ "CR-MISS-OS": {
+  "valor": "77.5",
+  "bruto": 77.48635787023863,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_cenarios.csv",
+  "celula": "faltantes por estádio (principal).os5_med"
+ },
+ "CR-MISS-HR": {
+  "valor": "2.60",
+  "bruto": 2.597321322147602,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_cenarios.csv",
+  "celula": "faltantes por estádio (principal).hr_med"
+ },
+ "CR-FALSE-K": {
+  "valor": "61",
+  "bruto": 61.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_cenarios.csv",
+  "celula": "só remover os prováveis falsos do RHC.k_total"
+ },
+ "CR-FALSE-OS": {
+  "valor": "82.7",
+  "bruto": 82.67190379490026,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_cenarios.csv",
+  "celula": "só remover os prováveis falsos do RHC.os5_med"
+ },
+ "CR-FALSE-HR": {
+  "valor": "2.67",
+  "bruto": 2.6685872669822848,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_cenarios.csv",
+  "celula": "só remover os prováveis falsos do RHC.hr_med"
+ },
+ "CR-BOTH-OS": {
+  "valor": "81.5",
+  "bruto": 81.48759858181936,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_cenarios.csv",
+  "celula": "remover os prováveis falsos do RHC e acrescentar os faltantes ajustados.os5_med"
+ },
+ "CR-BOTH-HR": {
+  "valor": "2.52",
+  "bruto": 2.522818597730896,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/captura_recaptura_cenarios.csv",
+  "celula": "remover os prováveis falsos do RHC e acrescentar os faltantes ajustados.hr_med"
+ },
+ "SORHC-NOTSIM": {
+  "valor": "69",
+  "bruto": 69.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/decomposicao_so_rhc.csv",
+  "celula": "so_rhc.não encontrado no SIM (provável vínculo RHC↔SUS falso ou data divergente)"
+ },
+ "SORHC-INSIM": {
+  "valor": "42",
+  "bruto": 42.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/decomposicao_so_rhc.csv",
+  "celula": "so_rhc.encontrado no SIM (qualquer classe)"
+ },
+ "SORHC-SEM": {
+  "valor": "16",
+  "bruto": 16.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/decomposicao_so_rhc.csv",
+  "celula": "so_rhc.encontrado; nenhum CID do paciente igual a um campo da DO (filtro semântico)"
+ },
+ "SORHC-MUN": {
+  "valor": "7",
+  "bruto": 7.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/decomposicao_so_rhc.csv",
+  "celula": "so_rhc.encontrado; município de residência difere (bloqueio por município)"
+ },
+ "SORHC-OTHER": {
+  "valor": "19",
+  "bruto": 19.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/decomposicao_so_rhc.csv",
+  "celula": "so_rhc.encontrado; passa nos três filtros (óbito antes do último registro no SUS, ou outra)"
+ },
+ "MUNROUTE-SORHC": {
+  "valor": "5",
+  "bruto": 5.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/decomposicao_so_rhc.csv",
+  "celula": "so_rhc.entrou na coorte pela rota de município do link RHC"
+ },
+ "BOTH-INSIM-PCT": {
+  "valor": "85",
+  "bruto": 84.71615720524018,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/decomposicao_so_rhc.csv",
+  "celula": "ambos: encontrados / total"
+ },
+ "B-CASC-RATE": {
+  "valor": "5.4",
+  "bruto": 5.40670252378981,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_taxas_medidas.csv",
+  "celula": "perda da cascata com CNS escondido.taxa_uniforme"
+ },
+ "B-CASC-OS": {
+  "valor": "80.7",
+  "bruto": 80.69342702830198,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_taxas_medidas.csv",
+  "celula": "perda da cascata com CNS escondido.os5_med"
+ },
+ "B-CASC-HR": {
+  "valor": "2.61",
+  "bruto": 2.613296095298652,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_taxas_medidas.csv",
+  "celula": "perda da cascata com CNS escondido.hr_med"
+ },
+ "B-CRL-RATE": {
+  "valor": "32.6",
+  "bruto": 32.61174875296625,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_taxas_medidas.csv",
+  "celula": "perda do pipeline implicada pela captura-recaptura.taxa_uniforme"
+ },
+ "B-CRL-OS": {
+  "valor": "81.7",
+  "bruto": 81.72070445248917,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_taxas_medidas.csv",
+  "celula": "perda do pipeline implicada pela captura-recaptura.os5_med"
+ },
+ "B-CRL-HR": {
+  "valor": "2.65",
+  "bruto": 2.6460010440145543,
+  "script": "projetos/Nefroblastoma_sensibilidade/propagacao_erro_linkage.py",
+  "arquivo": "outputs/propagacao_taxas_medidas.csv",
+  "celula": "perda do pipeline implicada pela captura-recaptura.hr_med"
+ },
+ "C50-SORHC-N": {
+  "valor": "18,144",
+  "bruto": 18144.0,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "so_rhc.n"
+ },
+ "C50-SORHC-INSIM": {
+  "valor": "5,612",
+  "bruto": 5612.0,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "so_rhc.achados_sim"
+ },
+ "C50-SORHC-INSIM-PCT": {
+  "valor": "31",
+  "bruto": 30.93033509700177,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "so_rhc.pct_achados_sim"
+ },
+ "C50-BOTH-INSIM": {
+  "valor": "69",
+  "bruto": 68.80566339346883,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "ambos.pct"
+ },
+ "C50-FALSOS": {
+  "valor": "9,988",
+  "bruto": 9988.0,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "prováveis falsos"
+ },
+ "C50-FALSOS-PCT": {
+  "valor": "55",
+  "bruto": 55.04681799211062,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "prováveis falsos %"
+ },
+ "C50-CR-MORT": {
+  "valor": "46",
+  "bruto": 46.3463579202874,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "mortalidade implícita"
+ },
+ "SIMLINK-LOSS-MIN": {
+  "valor": "27",
+  "bruto": 27.45098039215686,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/decomposicao_so_rhc.csv",
+  "celula": "só-RHC achados no SIM / (achados + óbitos C2 em 5 anos de propagacao_conjuntos.csv)"
+ },
+ "SIMLINK-MISSED-DEN": {
+  "valor": "153",
+  "bruto": 153.0,
+  "script": "projetos/Nefroblastoma_sensibilidade/captura_recaptura_obitos.py",
+  "arquivo": "outputs/decomposicao_so_rhc.csv",
+  "celula": "achados + C2"
+ },
+ "C50-FALSOS-PCT-I": {
+  "valor": "61",
+  "bruto": 61.07917407175741,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "(n − achados/acerto_ambos) / n, estádio I"
+ },
+ "C50-BOTH-INSIM-I": {
+  "valor": "55",
+  "bruto": 55.399568034557234,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "ambos.I.pct"
+ },
+ "C50-FALSOS-PCT-IV": {
+  "valor": "32",
+  "bruto": 32.19815875717738,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "(n − achados/acerto_ambos) / n, estádio IV"
+ },
+ "C50-BOTH-INSIM-IV": {
+  "valor": "73",
+  "bruto": 73.05252473991372,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "ambos.IV.pct"
+ },
+ "C50-FALSOS-SHARE-RHC": {
+  "valor": "32",
+  "bruto": 31.929925513890222,
+  "script": "scripts/c50_decomposicao_so_rhc.py",
+  "arquivo": "outputs/decomposicao_so_rhc_c50.csv",
+  "celula": "prováveis falsos / óbitos com rótulo RHC"
+ },
+ "C50-C1": {
+  "valor": "23,966",
+  "bruto": 23966.0,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_pipeline_por_camada.csv",
+  "celula": "todos.obitos_c1"
+ },
+ "C50-C2": {
+  "valor": "16,789",
+  "bruto": 16789.0,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_pipeline_por_camada.csv",
+  "celula": "todos.obitos_c2"
+ },
+ "C50-C1-PCT": {
+  "valor": "59",
+  "bruto": 58.80505459452828,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_pipeline_por_camada.csv",
+  "celula": "c1/(c1+c2)"
+ },
+ "C50-C1-CONF": {
+  "valor": "36",
+  "bruto": 36.26804639906534,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_pipeline_por_camada.csv",
+  "celula": "c1 confirmados/c1"
+ },
+ "C50-C2-CONF": {
+  "valor": "26",
+  "bruto": 26.475668592530823,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_pipeline_por_camada.csv",
+  "celula": "c2 confirmados/c2"
+ },
+ "C50-RATIO-C1": {
+  "valor": "7.5",
+  "bruto": 7.52672006839076,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_pipeline_por_camada.csv",
+  "celula": "mortalidade_c1 IV/I"
+ },
+ "C50-RATIO-C2": {
+  "valor": "3.9",
+  "bruto": 3.9276445958733084,
+  "script": "scripts/c50_obitos_por_fonte_estadio.py",
+  "arquivo": "outputs/obitos_pipeline_por_camada.csv",
+  "celula": "mortalidade_c2 IV/I"
+ },
+ "C-INJ-ELIG": {
+  "valor": "12,344",
+  "bruto": 12344.0,
+  "script": "scripts/c50_injecao_fnr.py",
+  "arquivo": "outputs/injecao_fnr_c50.csv",
+  "celula": "obitos_elegiveis"
+ },
+ "C-INJC-LOST": {
+  "valor": "668",
+  "bruto": 668.0,
+  "script": "scripts/c50_injecao_fnr.py",
+  "arquivo": "outputs/injecao_fnr_c50.csv",
+  "celula": "cascata.obitos_perdidos"
+ },
+ "C-INJC-IV": {
+  "valor": "4.28",
+  "bruto": 4.282360047852742,
+  "script": "scripts/c50_injecao_fnr.py",
+  "arquivo": "outputs/injecao_fnr_c50.csv",
+  "celula": "cascata.hr_estadio_iv_med"
+ },
+ "C-UND-SIM-PRETA": {
+  "valor": "9.6",
+  "bruto": 9.6318838435573,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_subgrupos.csv",
+  "celula": "SIM->Uniao.Preta (subestimação)"
+ },
+ "C-UND-SIM-PARDA": {
+  "valor": "7.4",
+  "bruto": 7.355869268611523,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_subgrupos.csv",
+  "celula": "SIM->Uniao.Parda (subestimação)"
+ },
+ "C-UND-SIM-BRANCA": {
+  "valor": "9.6",
+  "bruto": 9.571697567141122,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_subgrupos.csv",
+  "celula": "SIM->Uniao.Branca (subestimação)"
+ },
+ "C-UND-RHC-PRETA": {
+  "valor": "14.9",
+  "bruto": 14.887333770156683,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_subgrupos.csv",
+  "celula": "RHC->Uniao.Preta (subestimação)"
+ },
+ "C-UND-RHC-PARDA": {
+  "valor": "14.0",
+  "bruto": 14.028188939405894,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_subgrupos.csv",
+  "celula": "RHC->Uniao.Parda (subestimação)"
+ },
+ "C-UND-RHC-BRANCA": {
+  "valor": "9.7",
+  "bruto": 9.733300263075645,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_subgrupos.csv",
+  "celula": "RHC->Uniao.Branca (subestimação)"
+ },
+ "C-HR-SUL-SIM": {
+  "valor": "1.04",
+  "bruto": 1.0362922659494194,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_hr.csv",
+  "celula": "regiao_Sul.HR_SIM"
+ },
+ "C-HR-SUL-RHC": {
+  "valor": "0.46",
+  "bruto": 0.4552364218029674,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_hr.csv",
+  "celula": "regiao_Sul.HR_RHC"
+ },
+ "C-HR-SE-SIM": {
+  "valor": "1.40",
+  "bruto": 1.4016830188479603,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_hr.csv",
+  "celula": "regiao_Sudeste.HR_SIM"
+ },
+ "C-HR-SE-RHC": {
+  "valor": "1.87",
+  "bruto": 1.870909712813693,
+  "script": "scripts/c50_calibracao_rotulos.py",
+  "arquivo": "outputs/calibracao_rotulos_hr.csv",
+  "celula": "regiao_Sudeste.HR_RHC"
+ }
+}

@@ -1,0 +1,20 @@
+grupo,classe,n,pct
+ambos,"encontrado; passa nos três filtros (óbito antes do último registro no SUS, ou outra)",150,65.50218340611353
+ambos,não encontrado no SIM (provável vínculo RHC↔SUS falso ou data divergente),35,15.283842794759826
+ambos,encontrado; município de residência difere (bloqueio por município),25,10.91703056768559
+ambos,encontrado; nenhum CID do paciente igual a um campo da DO (filtro semântico),14,6.11353711790393
+ambos,"encontrado, chave ambígua",5,2.183406113537118
+ambos,TOTAL,229,100.0
+ambos,encontrado no SIM (qualquer classe),194,84.71615720524017
+ambos,causa básica C64/C65 entre os encontrados,176,90.72164948453609
+ambos,"CID do paciente aparece na DO (substring), entre os encontrados",184,94.84536082474227
+ambos,entrou na coorte pela rota de município do link RHC,3,1.3100436681222707
+so_rhc,não encontrado no SIM (provável vínculo RHC↔SUS falso ou data divergente),69,62.16216216216216
+so_rhc,"encontrado; passa nos três filtros (óbito antes do último registro no SUS, ou outra)",19,17.117117117117118
+so_rhc,encontrado; nenhum CID do paciente igual a um campo da DO (filtro semântico),16,14.414414414414415
+so_rhc,encontrado; município de residência difere (bloqueio por município),7,6.306306306306307
+so_rhc,TOTAL,111,100.0
+so_rhc,encontrado no SIM (qualquer classe),42,37.83783783783784
+so_rhc,causa básica C64/C65 entre os encontrados,23,54.76190476190476
+so_rhc,"CID do paciente aparece na DO (substring), entre os encontrados",28,66.66666666666667
+so_rhc,entrou na coorte pela rota de município do link RHC,5,4.504504504504505
