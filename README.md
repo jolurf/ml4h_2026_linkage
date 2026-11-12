@@ -45,7 +45,8 @@ downloadable without registration:
 
 ```
 paper/       ml4h_final.tex.in (source with {{TAG}} placeholders), gerar_tex_final.py,
-             ml4h_final.tex (generated), refs.bib, figures/ (the 10 figures, .pdf and .png)
+             ml4h_final.tex (generated), refs.bib, figures/ (the 10 figures, .pdf and .png),
+             jmlr.cls and jmlrutils.sty (the official ML4H 2026 template class)
 numbers/     numbers.json (tag -> value, script, output file, cell; the 271 tags the paper uses),
              provenance.md (the same as a table), make_provenance.py
 outputs/     42 aggregate tables (counts, rates, estimates and CIs by stratum or scenario)
@@ -71,6 +72,12 @@ python synthetic/validate_synthetic_cns.py && python synthetic/entropy_and_fs_ex
 The figure script redraws the nine CSV-driven figures byte-identical to those in
 `paper/figures/`. The Kaplan–Meier figure (`figC_km_scenarios`) is drawn from the
 patient-level cohort and is not redrawn here.
+
+To compile the paper (TeX Live or Overleaf):
+
+```bash
+cd paper && pdflatex ml4h_final && bibtex ml4h_final && pdflatex ml4h_final && pdflatex ml4h_final
+```
 
 The numbers themselves can also be re-derived from the tables, which rewrites
 `numbers/numbers.json` with identical content:

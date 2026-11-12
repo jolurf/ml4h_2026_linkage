@@ -102,7 +102,7 @@ and the National Cancer Institute's hospital cancer registry (RHC)
 the case base and the years returns the yearly record-level files). The analysis
 scripts, the aggregate output tables behind every number and figure, and a map
 from each number to its script and table are available at
-\url{https://github.com/jolurf/ml4h2026-linkage-audit}. No record-level data are released.
+\url{https://github.com/jolurf/ml4h_2026_linkage}. No record-level data are released.
 
 \paragraph*{Institutional Review Board (IRB)} Brazilian research-ethics norms
 exempt research that uses only public-access information from ethics-committee
@@ -695,7 +695,7 @@ mortality source, and deaths that no source records, move them substantially; an
 a model trained on a single source carries that choice into its calibration by
 race.
 
-\acks{[TODO ACKNOWLEDGMENTS AND FUNDING]}
+\acks{We thank Alice Barbosa and Sarvesh Chelvanambi for proofreading the manuscript. This research received no funding.}
 
 \bibliography{refs}
 

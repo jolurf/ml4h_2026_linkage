@@ -1,9 +1,9 @@
 """Figuras da versão final do manuscrito ML4H (`paper/ml4h_final.tex`).
 
 Cada figura é desenhada no TAMANHO EXATO em que entra no PDF e incluída a
-`width=\\linewidth`, sem reescala: página = 433,62 pt (6,0 pol.), coluna =
-211,81 pt (2,93 pol.), medidas na classe jmlr. A fonte mínima é 9 pt na página
-impressa.
+`width=\\linewidth`, sem reescala: página = 469,75 pt (6,5 pol.), coluna =
+229,88 pt (3,18 pol.), medidas na classe jmlr oficial do ML4H 2026 (paper/jmlr.cls).
+A fonte mínima é 9 pt na página impressa.
 
 Paleta (distinção conferida entre todos os pares, fundo claro):
 azul = rótulo pipeline / vínculo correto / perder vínculos; laranja = registro de
@@ -53,8 +53,11 @@ try:  # dentro do pipeline dos autores: a KM (figC) lê a coorte
 except ImportError:  # fora dele, só os CSVs agregados (use --sem-km)
     RAIZ = None
 
-TW = 433.62 / 72.27   # \textwidth  (figure*)
-CW = 211.81 / 72.27   # \columnwidth (figure)
+TW = 469.75 / 72.27   # \textwidth  (figure*), classe oficial ML4H 2026
+CW = 229.88 / 72.27   # \columnwidth (figure), classe oficial ML4H 2026
+# Os esquemas (fig1, fig2) foram compostos em coordenadas de polegada numa página de
+# 6,0 pol.; na de 6,5 o eixo x é esticado (fontes, marcadores e alturas não mudam).
+X_ESQUEMA = 433.62 / 72.27
 
 INK, INK2, MUTED, GRID = "#0b0b0b", "#52514e", "#8a8984", "#e4e3df"
 AZUL, LARANJA, AGUA = "#2a78d6", "#eb6834", "#1baf7a"
@@ -84,11 +87,12 @@ def salvar(fig, nome: str) -> None:
     print(f"🖼  {FIG / nome}")
 
 
-def tela(w: float, h: float):
-    """Eixo cobrindo a figura inteira, em polegadas — para esquemas."""
+def tela(w: float, h: float, x_max: float | None = None):
+    """Eixo cobrindo a figura inteira, em polegadas — para esquemas. `x_max`
+    estica o eixo x: desenha em `x_max` polegadas lógicas numa figura de `w`."""
     fig = plt.figure(figsize=(w, h))
     ax = fig.add_axes((0, 0, 1, 1))
-    ax.set_xlim(0, w)
+    ax.set_xlim(0, x_max or w)
     ax.set_ylim(0, h)
     ax.axis("off")
     return fig, ax
@@ -104,7 +108,7 @@ def fig1_overview() -> None:
     """(a) os registros de um paciente em quatro sistemas, só um com o
     identificador; (b) as três etapas do estudo, com o experimento e a métrica."""
     H = 2.78
-    fig, ax = tela(TW, H)
+    fig, ax = tela(TW, H, X_ESQUEMA)
     ax.text(0.02, H - 0.06, "(a) One patient, four national systems, one identifier", va="top", fontsize=9.5,
             fontweight="bold")
     linhas = [("Outpatient (SIA)", "health-card no."), ("Hospital claims (SIH)", "no identifier"),
@@ -165,7 +169,7 @@ def fig2_sources_links() -> None:
     (validação direta); tracejado violeta = sem identificador comum. Acima de
     cada seta: o método do link; em itálico: como ele foi validado."""
     H = 2.3
-    fig, ax = tela(TW, H)
+    fig, ax = tela(TW, H, X_ESQUEMA)
     w, h = 1.76, 0.5
 
     def caixa(xc, yc, titulo, sub, com_id=False):
