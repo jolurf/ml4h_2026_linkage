@@ -184,8 +184,8 @@ def fig2_sources_links() -> None:
 
     yt, yb = 1.42, 0.3
     xa, xb, xc, xr = 0.9, 3.0, 5.1, 3.6
-    caixa(xa, yt, "Outpatient bulletins", "SIA-BI · ID + birth date", com_id=True)
-    caixa(xa, yb, "Oncology claims", "SIA-AQ/AR · ID + age", com_id=True)
+    caixa(xa, yt, "Outpatient records", "SIA · ID + birth date", com_id=True)
+    caixa(xa, yb, "Oncology records", "SIA · ID + age", com_id=True)
     caixa(xb, yt, "Hospital claims", "SIH · no ID")
     caixa(xc, yt, "Death registry", "SIM · no ID")
     caixa(xr, yb, "Cancer registry", "RHC · no ID")

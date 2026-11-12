@@ -1,8 +1,15 @@
 # Auditing Identity Noise and Linkage Degradation at National Scale
 
-Code and aggregate outputs for the ML4H 2026 paper *Auditing Identity Noise and
-Linkage Degradation at National Scale: From Bias Measurement to Downstream Clinical
-Distortion*.
+Code and aggregate outputs for the ML4H 2026 (Findings Track) paper *Auditing
+Identity Noise and Linkage Degradation at National Scale: From Bias Measurement to
+Downstream Clinical Distortion*.
+
+João Luis Reis Freitas¹, Leonardo Dexheimer da Silva¹, Felipe Matias Berg²³,
+Nelson Wolosker¹²
+
+¹ Faculdade de Medicina, Universidade de São Paulo, São Paulo, Brazil ·
+² Hospital Israelita Albert Einstein, São Paulo, Brazil ·
+³ Department of Radiology, Case Western Reserve University, Cleveland, OH, USA
 
 Machine learning on health records assumes that each patient's history has been
 stitched together correctly. In Brazil's public health system (SUS) only
@@ -151,4 +158,13 @@ included; the paper cites only its aggregate summary
 
 MIT License (see `LICENSE`).
 
-Citation: to appear in ML4H 2026 Findings.
+```bibtex
+@inproceedings{freitas2026auditing,
+  title     = {Auditing Identity Noise and Linkage Degradation at National Scale:
+               From Bias Measurement to Downstream Clinical Distortion},
+  author    = {Freitas, Jo{\~a}o Luis Reis and {da Silva}, Leonardo Dexheimer and
+               Berg, Felipe Matias and Wolosker, Nelson},
+  booktitle = {Machine Learning for Health (ML4H) 2026, Findings Track},
+  year      = {2026}
+}
+```
