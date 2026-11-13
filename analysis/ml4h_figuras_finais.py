@@ -195,7 +195,7 @@ def fig2_sources_links() -> None:
     caixa(xr, yb, "Cancer registry", "RHC · no ID")
 
     seta((xa + w / 2 + 0.02, yt), (xb - w / 2 - 0.02, yt), False)
-    rotulo((xa + xb) / 2 + 0.15, yt + h / 2 + 0.06, "cascade R1–R4", "re-run with\nID hidden (E2)", VIOLETA)
+    rotulo((xa + xb) / 2 + 0.15, yt + h / 2 + 0.06, "cascade R1–R4", "R1, R3, R4 re-run\nwith ID hidden (E2)", VIOLETA)
     seta((xb + w / 2 + 0.02, yt), (xc - w / 2 - 0.02, yt), False)
     rotulo((xb + xc) / 2, yt + h / 2 + 0.06, "death link C2", "capture–recapture,\ndirect search (E4)", VIOLETA)
     seta((xa, yt - h / 2 - 0.02), (xa, yb + h / 2 + 0.02), True)

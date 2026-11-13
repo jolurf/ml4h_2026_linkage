@@ -78,10 +78,11 @@ used only as ground truth, the linkage cascade reaches 94.6\% recall and
 96.0\% precision in a candidate pool the size of a disease cohort, but
 36.7\% and 36.8\% across a whole state. Recall is 12.0 points lower where race
 is not recorded (6.0 [4.9, 7.2] after adjusting for year and state). In 2{,}684
-children with nephroblastoma, losing links at the measured rates moves 5-year
-survival from 80.5\% to at most 81.7\%, omitting the mortality
-sources moves it to 89.1\%, and deaths that no source records leave the
-reference between 77.5\% and 82.7\%. In a breast-cancer
+children with nephroblastoma, losing links at the measured or implied rates moves
+5-year survival from 80.5\% to at most 81.7\%, omitting the mortality
+sources moves it to 89.1\%, and deaths that no source records, together
+with registry deaths attached to the wrong patient, leave the reference between
+77.5\% and 82.7\%. In a breast-cancer
 survival model (209,387 patients), the source that labels death moves the stage
 IV hazard ratio from 2.52 to 8.07 and changes calibration
 by race. The choice of linked sources, not the number of lost links, determines
@@ -136,7 +137,9 @@ inherits the linkage errors: a missed link deletes an event, and a false link
 attaches someone else's (Figure~\ref{fig:overview}a). These errors are rarely
 measured. Work on linkage bias has mostly studied systems where names are
 available \citep{harron2014,doidge2019}, and work on algorithmic fairness
-usually takes the assembled record as given \citep{obermeyer2019,hardt2016,chen2021}.
+usually takes the assembled record as given \citep{obermeyer2019,hardt2016},
+although bias introduced during data collection is a recognised source of harm
+\citep{chen2021}.
 
 Brazil's Unified Health System (SUS) serves more than 200 million people and
 publishes its records as open microdata. Only the outpatient file carries a
@@ -172,8 +175,9 @@ calibration by race (E5).
 disease cohort: recall 94.6\% and precision 96.0\% there; both fall to
 36.7--36.8\% across a whole state.
 \textbf{(ii)} Links are lost most where registration is incomplete: recall is
-12.0 points lower where race is missing.
-\textbf{(iii)} Losing existing links at the measured rates moves 5-year survival
+12.0 points lower where race is missing (6.0 [4.9, 7.2] after adjusting for year
+and state).
+\textbf{(iii)} Losing existing links at the measured or implied rates moves 5-year survival
 little (80.5\% to at most 81.7\%); leaving out the mortality
 sources moves it to 89.1\%; and the source that labels death moves a
 model's stage IV hazard ratio from 2.52 to 8.07.}
@@ -191,9 +195,9 @@ where names are available. GUILD \citep{gilbert2018} specifies what
 linkage-quality information should be reported. Fellegi--Sunter
 \citep{fellegi1969} and its extensions \citep{winkler2006}, now run at scale by
 open-source tools such as Splink \citep{linacre2022}, give the probabilistic
-framework that we use as an audit instrument. \citet{christen2023} catalogue how
-errors in capturing, processing and linking population data reach the analysis. We differ in the
-identifier, the grain and the endpoint (Table~\ref{tab:prior}): no names are
+framework that we use as an audit instrument. \citet{christen2023} catalogue common
+misconceptions about errors in the capture, processing and linkage of population data. We differ in the
+identifier and the endpoint (Table~\ref{tab:prior}): no names are
 available, the only identifier is encrypted and absent from three of the four
 systems, and we follow the measured error into a survival estimate and a trained
 model.
@@ -452,7 +456,7 @@ same holds for Fellegi--Sunter parameters: nationally, the joint $u$ of birth
 date + sex + municipality is 1.02$\times$ the product of the
 single-field values, whereas in the nephroblastoma pool it is
 7.7--30.4$\times$ (Appendix~\ref{app:fs}).
-Chance agreement must be measured in the pool that is compared.
+Chance agreement depends on who is in the pool, so it must be measured in the pool that is compared.
 
 \subsection{E3: Links Are Lost Where Race Is Not Recorded}
 \label{sec:e3}
@@ -534,7 +538,7 @@ death links, at most at the rate that treats every ambiguous SIM death as false.
 only: death flags on the patient's own outpatient and hospital records, with no
 SIM link and no cancer registry.
 \item \emph{Unrecorded and false deaths.} The pipeline and the cancer registry give
-two lists of deaths; capture--recapture (Chapman, \citealp{chapman1951})
+two lists of deaths; capture--recapture (Chapman estimator; \citealp{chapman1951})
 estimates the deaths neither records. Registry deaths not found in SIM by a
 direct search are likely attached to the wrong patient.
 \end{itemize}
