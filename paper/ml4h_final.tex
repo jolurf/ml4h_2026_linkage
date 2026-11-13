@@ -84,8 +84,8 @@ sources moves it to 89.1\%, and deaths that no source records leave the
 reference between 77.5\% and 82.7\%. In a breast-cancer
 survival model (209,387 patients), the source that labels death moves the stage
 IV hazard ratio from 2.52 to 8.07 and changes calibration
-by race. Which sources are linked shapes what a model learns more than how many
-links are lost.
+by race. The choice of linked sources, not the number of lost links, determines
+what a model learns.
 \end{abstract}
 
 \begin{keywords}
@@ -136,7 +136,7 @@ inherits the linkage errors: a missed link deletes an event, and a false link
 attaches someone else's (Figure~\ref{fig:overview}a). These errors are rarely
 measured. Work on linkage bias has mostly studied systems where names are
 available \citep{harron2014,doidge2019}, and work on algorithmic fairness
-usually takes the assembled record as given \citep{obermeyer2019,hardt2016}.
+usually takes the assembled record as given \citep{obermeyer2019,hardt2016,chen2021}.
 
 Brazil's Unified Health System (SUS) serves more than 200 million people and
 publishes its records as open microdata. Only the outpatient file carries a
@@ -183,13 +183,16 @@ model's stage IV hazard ratio from 2.52 to 8.07.}
 \label{sec:related}
 
 CIDACS-RL \citep{barbosa2020} links Brazilian birth and welfare records with
-name-based probabilistic matching at national scale and reports link accuracy.
+name-based probabilistic matching at national scale and reports link accuracy;
+it underlies the 100 Million Brazilian Cohort \citep{barreto2022}.
 \citet{harron2014} and \citet{doidge2019} show that linkage error biases
 epidemiological estimates and propose ways to characterise it, in linked cohorts
 where names are available. GUILD \citep{gilbert2018} specifies what
 linkage-quality information should be reported. Fellegi--Sunter
-\citep{fellegi1969} and its extensions \citep{winkler2006} give the
-probabilistic framework that we use as an audit instrument. We differ in the
+\citep{fellegi1969} and its extensions \citep{winkler2006}, now run at scale by
+open-source tools such as Splink \citep{linacre2022}, give the probabilistic
+framework that we use as an audit instrument. \citet{christen2023} catalogue how
+errors in capturing, processing and linking population data reach the analysis. We differ in the
 identifier, the grain and the endpoint (Table~\ref{tab:prior}): no names are
 available, the only identifier is encrypted and absent from three of the four
 systems, and we follow the measured error into a survival estimate and a trained
@@ -404,7 +407,7 @@ score separates true from false matches: its highest bucket has a true-match
 rate 177 times that of its lowest (Appendix~\ref{app:audit}).
 
 \runin{Takeaway} One number often carries more than one identity, and one
-identity is often shared by different people: neither the identifier nor the
+identity is often shared by different people. Neither the identifier nor the
 demographics alone define a patient.
 
 \subsection{E2: Linkage Works Inside a Disease Pool, Not Across a Population}
@@ -444,12 +447,12 @@ while R1's own wrong links are not revisited. Precision per rule is
 whole state, both recall and precision fall to about 36.8\%.
 
 \runin{Takeaway} Demographic keys identify people only in the small pool that a
-disease filter leaves; at population scale most agreements are coincidences. So
-chance agreement must be measured in the pool actually compared. The same holds
-for Fellegi--Sunter parameters: nationally, the joint $u$ of birth date + sex +
-municipality is 1.02$\times$ the product of the single-field values,
-so independence nearly holds, whereas in the nephroblastoma pool it is
+disease filter leaves; at population scale most agreements are coincidences. The
+same holds for Fellegi--Sunter parameters: nationally, the joint $u$ of birth
+date + sex + municipality is 1.02$\times$ the product of the
+single-field values, whereas in the nephroblastoma pool it is
 7.7--30.4$\times$ (Appendix~\ref{app:fs}).
+Chance agreement must be measured in the pool that is compared.
 
 \subsection{E3: Links Are Lost Where Race Is Not Recorded}
 \label{sec:e3}
@@ -487,9 +490,9 @@ differences are small but remain after clustering: Black/mixed vs.\ White
 0.67 [0.49, 0.85] points and North/Northeast vs.\ South/Southeast 2.30 [1.94, 2.66] points
 (bootstrap over municipalities; over states, 0.67 [0.22, 1.20] and 2.30 [1.51, 3.42]).
 
-\runin{Takeaway} Missing race marks records that are harder to link. This is
-consistent with a pathway through registration completeness, but we fit no
-causal model, and we read the association descriptively.
+\runin{Takeaway} The gap persists after adjustment and is
+consistent with a pathway through registration completeness; we report it as an
+association, not as a causal effect. Records without race lose more links.
 
 \subsection{E4: What Moves a Survival Estimate}
 \label{sec:e4}
@@ -568,9 +571,9 @@ linkage error would understate the disparity. Treating race as the missing
 variable, complete cases, inverse probability weighting and multiple imputation
 give the same HR for White vs.\ Black/mixed-race patients (0.741 [0.610, 0.900], 0.743 [0.610, 0.904] and 0.734 [0.604, 0.891]; Appendix~\ref{app:race}).
 
-\runin{Takeaway} For this estimate, the errors that matter are not the links lost
-at the measured rates but the sources left out and the deaths that no source
-records.
+\runin{Takeaway} Losing links at the measured rates moves survival by about one
+point; omitting a source or ignoring unrecorded deaths moves it by several.
+Source coverage, not link loss, drives the survival estimate.
 
 \subsection{E5: A Trained Survival Model Inherits the Death Label}
 \label{sec:e5}
@@ -621,9 +624,9 @@ which varies by region, enters the calibration through it. By contrast, losing t
 12,344 SIM-link deaths at the measured rate moves the stage IV HR only
 from 4.31 to 4.29 (4.28 at the cascade's loss).
 
-\runin{Takeaway} In the model, as in the clinical estimate, which sources label
-the outcome matters far more than losing links. The union is the most complete
-label, not a gold standard.
+\runin{Takeaway} Losing links barely changes the model, while changing the label
+source more than triples the stage IV hazard ratio. The union is the most complete label,
+not a gold standard. The death label determines what the model learns.
 
 \begin{table}[t]
 \floatconts
